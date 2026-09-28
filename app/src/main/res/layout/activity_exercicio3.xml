@@ -1,0 +1,10 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="3. Reserva de Sala" android:textSize="26sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etxtNome" android:hint="Nome do responsável" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etxtSala" android:hint="Sala" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etxtHorario" android:hint="Horário" android:inputType="time" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Button android:id="@+id/btn_Reservar" android:text="Reservar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+<TextView android:id="@+id/txtResultado" android:text="O resultado aparecerá aqui." android:textSize="18sp" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+</LinearLayout></ScrollView>

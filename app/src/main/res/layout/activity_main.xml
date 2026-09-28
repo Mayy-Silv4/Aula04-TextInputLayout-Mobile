@@ -1,0 +1,16 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="24dp"
+ android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="📝 Lista de Exercícios" android:textSize="28sp" android:textStyle="bold"
+ android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="Java • XML • Logcat + resultado na tela" android:textSize="16sp"
+ android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnEx1" android:text="1 • Pedido de Lanche" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp"/>
+<Button android:id="@+id/btnEx2" android:text="2 • Cadastro de Pet" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnEx3" android:text="3 • Reserva de Sala" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnEx4" android:text="4 • Tela de Login" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnEx5" android:text="5 • Inscrição em Evento" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnEx6" android:text="6 • Cadastro de Produto" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnEx7" android:text="7 • Recuperar Senha" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>

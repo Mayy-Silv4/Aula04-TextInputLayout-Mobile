@@ -1,0 +1,10 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="2. Cadastro de Pet" android:textSize="26sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etxtNomePet" android:hint="Nome do pet" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etxtEspecie" android:hint="Espécie" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/etxtIdadePet" android:hint="Idade" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Button android:id="@+id/btn_CadastrarPet" android:text="Cadastrar pet" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+<TextView android:id="@+id/txtResultado" android:text="O resultado aparecerá aqui." android:textSize="18sp" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+</LinearLayout></ScrollView>

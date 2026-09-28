@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@style/Theme.ListaExercicios" android:label="Lista de Exercícios"
+        android:allowBackup="true" android:supportsRtl="true">
+        <activity android:name=".Exercicio7Activity"/>
+        <activity android:name=".Exercicio6Activity"/>
+        <activity android:name=".Exercicio5Activity"/>
+        <activity android:name=".Exercicio4Activity"/>
+        <activity android:name=".Exercicio3Activity"/>
+        <activity android:name=".Exercicio2Activity"/>
+        <activity android:name=".Exercicio1Activity"/>
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
